@@ -2,7 +2,7 @@
 # Produces an UNSIGNED ShoutcastEncoder-unsigned.ipa (macOS + Xcode required)
 set -euo pipefail
 cd "$(dirname "$0")/.."
-[ -f Vendor/lame/lib/libmp3lame.a ] || scripts/build_lame.sh
+[ -f Vendor/lame/lib/libmp3lame.a ] || bash scripts/build_lame.sh
 command -v xcodegen >/dev/null || brew install xcodegen
 xcodegen generate
 rm -rf build Payload ShoutcastEncoder-unsigned.ipa
