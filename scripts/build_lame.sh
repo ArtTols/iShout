@@ -13,7 +13,7 @@ CC="$(xcrun --sdk iphoneos -f clang)"
 FLAGS="-arch arm64 -isysroot $SDK -miphoneos-version-min=16.0 -O3"
 ./configure --host=arm-apple-darwin --prefix="$OUT" \
   --disable-shared --enable-static --disable-frontend --disable-decoder \
-  CC="$CC" CFLAGS="$FLAGS -DHAVE_MEMCPY -include strings.h" LDFLAGS="$FLAGS"
+  CC="$CC" CFLAGS="$FLAGS -DHAVE_MEMCPY -include stdlib.h -include string.h -include strings.h -include math.h"
 make -j"$(sysctl -n hw.ncpu)"
 make install
 echo "LAME installed to $OUT"
