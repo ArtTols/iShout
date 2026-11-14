@@ -22,4 +22,8 @@ You can download this app without building on the [Releases](https://github.com/
 Connects to **listener port + 1**, sends `password\r\n`, waits for `OK2`, sends
 `icy-*` headers, then streams MP3. Untick the port toggle if you want to enter the source port directly.
 
-License: GPL-3.0-or-later (see LICENSE).
+## License
+GPL-3.0-or-later (see LICENSE).
+
+## WARNING!
+This app has been built with help of an AI assistant (Claude)
