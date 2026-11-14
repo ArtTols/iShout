@@ -15,6 +15,9 @@ uploads it as an artifact.
 
 Install the unsigned IPA with AltStore, Sideloadly, TrollStore, etc. (they sign it for you).
 
+## Downloads
+You can download this app without building on the [Releases](https://github.com/ArtTols/iShout/releases) page (stable-ish build) or in [Actions](https://github.com/ArtTols/iShout/actions) (bleeding edge build)
+
 ## Protocol notes
 Connects to **listener port + 1**, sends `password\r\n`, waits for `OK2`, sends
 `icy-*` headers, then streams MP3. Untick the port toggle if you want to enter the source port directly.
