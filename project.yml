@@ -1,0 +1,32 @@
+name: ShoutcastEncoder
+options:
+  bundleIdPrefix: org.foss
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  ShoutcastEncoder:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    info:
+      path: Config/Info.plist
+      properties:
+        CFBundleDisplayName: SHOUTcast Encoder
+        UILaunchScreen: {}
+        NSMicrophoneUsageDescription: The microphone is encoded to MP3 and streamed to your SHOUTcast server.
+        UIBackgroundModes: [audio]
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "2"
+        SWIFT_OBJC_BRIDGING_HEADER: Config/Bridging-Header.h
+        HEADER_SEARCH_PATHS: $(SRCROOT)/Vendor/lame/include
+        LIBRARY_SEARCH_PATHS: $(SRCROOT)/Vendor/lame/lib
+        OTHER_LDFLAGS: -lmp3lame
