@@ -1,6 +1,6 @@
-name: ShoutcastEncoder
+name: iShout
 options:
-  bundleIdPrefix: org.foss
+  bundleIdPrefix: com.ArtApps
   deploymentTarget:
     iOS: "16.0"
 targets:
@@ -11,7 +11,7 @@ targets:
     info:
       path: Config/Info.plist
       properties:
-        CFBundleDisplayName: SHOUTcast Encoder
+        CFBundleDisplayName: iShout
         UILaunchScreen: {}
         NSMicrophoneUsageDescription: The microphone is encoded to MP3 and streamed to your SHOUTcast server.
         UIBackgroundModes: [audio]
