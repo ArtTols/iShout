@@ -30,3 +30,4 @@ targets:
         HEADER_SEARCH_PATHS: $(SRCROOT)/Vendor/lame/include
         LIBRARY_SEARCH_PATHS: $(SRCROOT)/Vendor/lame/lib
         OTHER_LDFLAGS: -lmp3lame
+        PRODUCT_BUNDLE_IDENTIFIER: com.ArtApps.iShout
