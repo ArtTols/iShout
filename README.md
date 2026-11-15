@@ -16,7 +16,11 @@ uploads it as an artifact.
 Install the unsigned IPA with AltStore, Sideloadly, TrollStore, etc. (they sign it for you).
 
 ## Downloads
-You can download this app without building on the [Releases](https://github.com/ArtTols/iShout/releases) page (stable-ish build) or in [Actions](https://github.com/ArtTols/iShout/actions) (bleeding edge build)
+You can download this app without building on the [Releases](https://github.com/ArtTols/iShout/releases) page (stable-ish build) or in [Actions](https://github.com/ArtTols/iShout/actions) (bleeding edge build). 
+
+## AltSource
+There is also an option to install the app via our AltSource which is available at the URL below. Just copy it into AltStore!
+    https://raw.githubusercontent.com/ArtTols/iShout/main/artsource/apps.json
 
 ## Protocol notes
 Connects to **listener port + 1**, sends `password\r\n`, waits for `OK2`, sends
