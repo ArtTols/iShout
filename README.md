@@ -20,7 +20,9 @@ You can download this app without building on the [Releases](https://github.com/
 
 ## AltSource
 There is also an option to install the app via our AltSource which is available at the URL below. Just copy it into AltStore!
-``` https://raw.githubusercontent.com/ArtTols/iShout/main/artsource/apps.json ```
+```
+https://raw.githubusercontent.com/ArtTols/iShout/main/artsource/apps.json
+```
 
 ## Protocol notes
 Connects to **listener port + 1**, sends `password\r\n`, waits for `OK2`, sends
