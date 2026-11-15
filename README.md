@@ -1,6 +1,6 @@
-# SHOUTcast Encoder (iPadOS)
+# iShout
 
-Free/open-source SHOUTcast **v1** source client: microphone → LAME MP3 → DNAS.
+Free/open-source SHOUTcast **v1** source client for iOS and iPadOS: microphone → LAME MP3 → DNAS.
 
 - Swift / SwiftUI / AVAudioEngine / Network.framework
 - MP3 encoding via [LAME](https://lame.sourceforge.io) (LGPL), built as a static lib
