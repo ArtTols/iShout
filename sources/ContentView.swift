@@ -73,7 +73,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("SHOUTcast Encoder")
+            .navigationTitle("iShout")
         }
         .navigationViewStyle(.stack)
     }
