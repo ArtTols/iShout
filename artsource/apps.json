@@ -25,7 +25,7 @@
           "buildVersion": "2",
           "date": "2026-11-15",
           "localizedDescription": "Latest build.",
-          "downloadURL": "https://github.com/ArtTols/iShout/releases/download/v0.0.2/ShoutcastEncoder-unsigned.ipa",
+          "downloadURL": "https://github.com/ArtTols/iShout/releases/download/v0.0.2/iShout v0.0.2.ipa",
           "size": 0,
           "minOSVersion": "16.0"
         },
@@ -34,7 +34,7 @@
           "buildVersion": "1",
           "date": "2026-11-15",
           "localizedDescription": "Initial release.",
-          "downloadURL": "https://github.com/ArtTols/iShout/releases/download/v0.0.1/ShoutcastEncoder-unsigned.ipa",
+          "downloadURL": "https://github.com/ArtTols/iShout/releases/download/v0.0.1/iShout v0.0.1.ipa",
           "size": 0,
           "minOSVersion": "16.0"
         }
