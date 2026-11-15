@@ -1,4 +1,4 @@
-name: iShout
+name: ShoutcastEncoder
 options:
   bundleIdPrefix: com.ArtApps
   deploymentTarget:
