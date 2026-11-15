@@ -1,0 +1,45 @@
+{
+  "name": "ArtSource",
+  "identifier": "com.artapps.artsource",
+  "subtitle": "Apps by ArtApps",
+  "description": "The ArtApps AltStore source. Free and open-source apps.",
+  "iconURL": "https://raw.githubusercontent.com/ArtTols/iShout/main/artsource/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/ArtTols/iShout/main/artsource/header.png",
+  "website": "https://github.com/ArtTols/iShout",
+  "tintColor": "FF6A00",
+  "featuredApps": ["com.artapps.iShout"],
+  "apps": [
+    {
+      "name": "iShout",
+      "bundleIdentifier": "com.artapps.iShout",
+      "developerName": "ArtApps",
+      "subtitle": "SHOUTcast v1 microphone encoder",
+      "localizedDescription": "Free, open-source SHOUTcast v1 source client for iPad. Captures your microphone, encodes MP3 with LAME and streams to your SHOUTcast server. Supports USB and Bluetooth mics and background streaming.",
+      "iconURL": "https://raw.githubusercontent.com/ArtTols/iShout/main/artsource/icon.png",
+      "tintColor": "FF6A00",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.0.2",
+          "buildVersion": "2",
+          "date": "2026-11-15",
+          "localizedDescription": "Latest build.",
+          "downloadURL": "https://github.com/ArtTols/iShout/releases/download/v0.0.2/ShoutcastEncoder-unsigned.ipa",
+          "size": 0,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "0.0.1",
+          "buildVersion": "1",
+          "date": "2026-11-15",
+          "localizedDescription": "Initial release.",
+          "downloadURL": "https://github.com/ArtTols/iShout/releases/download/v0.0.1/ShoutcastEncoder-unsigned.ipa",
+          "size": 0,
+          "minOSVersion": "16.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
