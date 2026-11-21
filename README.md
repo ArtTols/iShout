@@ -13,7 +13,7 @@ Free/open-source SHOUTcast **v1** source client for iOS and iPadOS: microphone â
 Or push to GitHub: the included Actions workflow builds the unsigned .ipa and
 uploads it as an artifact.
 
-Install the unsigned IPA with AltStore, Sideloadly, TrollStore, etc. (they sign it for you).
+Install the unsigned IPA with AltStore, Sideloadly, TrollStore, LiveContainer etc. (they sign it for you).
 
 ## Downloads
 You can download this app without building on the [Releases](https://github.com/ArtTols/iShout/releases) page (stable-ish build) or in [Actions](https://github.com/ArtTols/iShout/actions) (bleeding edge build). 
